@@ -1,4 +1,4 @@
-import db from "@repo/db";
+import { prisma } from "@repo/db"; // Import the singleton instance
 import CredentialsProvider from "next-auth/providers/credentials";
 import { z } from "zod";
 import axios from "axios";
@@ -51,7 +51,7 @@ export const authOptions = {
                     const otp = otpSchema.parse(credentials.otp);
 
                     // Check if user exists
-                    const user = await db.user.findFirst({
+                    const user = await prisma.user.findFirst({
                         where: { email }
                     });
 
@@ -95,7 +95,7 @@ export const authOptions = {
     },
     pages: {
         signIn: '/auth/signin',
-        error: '/auth/error', // Custom error page to handle the redirect
-        newUser: '/auth/signup' // Redirect to signup page for new users
+        error: '/auth/error',
+        newUser: '/auth/signup'
     }
 };

@@ -1,5 +1,5 @@
 import { PrismaClient } from "@repo/db"
-import { Appbar } from "@repo/ui";
+import { Appbar } from "@repo/ui/appbar";
 export default function Page(){
   return (
     <div className="text-4xl bg-amber-300">

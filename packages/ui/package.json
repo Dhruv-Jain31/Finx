@@ -7,6 +7,8 @@
   "files": [
     "dist"
   ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
    "exports": {
     "./button": "./src/button.tsx",
     "./card": "./src/card.tsx",

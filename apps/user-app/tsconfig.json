@@ -7,6 +7,10 @@
       }
     ]
   },
+  "paths": {
+      "@repo/ui": ["../packages/ui/dist/index.js"],
+      "@repo/ui/*": ["../packages/ui/dist/*"]
+    },
   "include": [
     "**/*.ts",
     "**/*.tsx",

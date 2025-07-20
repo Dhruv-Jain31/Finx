@@ -7,9 +7,11 @@
   "files": [
     "dist"
   ],
-  "exports": {
-    "./styles.css": "./dist/index.css",
-    "./*": "./dist/*.js"
+   "exports": {
+    "./button": "./src/button.tsx",
+    "./card": "./src/card.tsx",
+    "./code": "./src/code.tsx",
+    "./appbar": "./src/Appbar.tsx"
   },
   "license": "MIT",
   "scripts": {

@@ -14,11 +14,13 @@
     "@repo/db": "workspace:*",
     "@repo/store": "workspace:*",
     "@repo/ui": "workspace:*",
+    "axios": "^1.10.0",
     "next": "^15.3.0",
     "next-auth": "^4.24.11",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "recoil": "^0.7.7"
+    "recoil": "^0.7.7",
+    "zod": "^4.0.5"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^15.3.0",

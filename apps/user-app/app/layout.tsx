@@ -1,5 +1,5 @@
 "use client"
-import "@repo/ui";
+import "@repo/ui/styles.css";
 import { SessionProvider } from "next-auth/react";
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -3,7 +3,7 @@ import { Appbar } from "@repo/ui";
 export default function Page(){
   return (
     <div className="text-4xl bg-amber-300">
-      hello world!
+      hello world! welcome to finx merchant app
     </div>
   )
 }

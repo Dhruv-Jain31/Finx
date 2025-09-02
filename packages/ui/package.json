@@ -11,7 +11,8 @@
     ".": "./src/index.ts",
     "./card": "./src/card.tsx",
     "./code": "./src/code.tsx",
-    "./appbar": "./src/Appbar.tsx"
+    "./appbar": "./src/Appbar.tsx",
+    "./styles.css": "./src/styles.css"
   },
   "license": "MIT",
   "scripts": {

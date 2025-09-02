@@ -12,9 +12,8 @@ model User {
   email       String?  @unique
   name        String? 
   number      String  @unique
-  password    String
-  mfaEnabled  Boolean @default(false)
-  mfaSecret   String? 
+  otp         String?
+  otpExpires  DateTime?
 }
 
 model Merchant {

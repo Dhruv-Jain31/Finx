@@ -18,7 +18,7 @@ export const authOptions = {
             async authorize(credentials) {
                 if (!credentials) return null;
 
-                // Handle OTP request
+                // Handling OTP request
                 if (credentials.requestOtp === "true") {
                     try {
                         // Validate email
@@ -94,6 +94,7 @@ export const authOptions = {
         }
     },
     pages: {
+        signIn: '/auth/login',
         error: '/auth/error',
         newUser: '/auth/signup'
     }

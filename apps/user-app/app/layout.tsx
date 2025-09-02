@@ -2,7 +2,7 @@
 import "@repo/ui";
 import { SessionProvider } from "next-auth/react";
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html>
       <body>

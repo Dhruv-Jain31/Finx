@@ -15,6 +15,7 @@
     "@repo/store": "workspace:*",
     "@repo/ui": "workspace:*",
     "axios": "^1.10.0",
+    "framer-motion": "^12.23.12",
     "lucide-react": "^0.542.0",
     "next": "^15.3.0",
     "next-auth": "^4.24.11",
